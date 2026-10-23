@@ -1,0 +1,48 @@
+import { Server } from "./types/mainTypes"
+
+export const SERVERS : Server[] = [
+    { "number": 70, "foundedAt": "2026-02-28" },
+    { "number": 69, "foundedAt": "2026-02-27" },
+    { "number": 68, "foundedAt": "2026-02-27" },
+    { "number": 67, "foundedAt": "2026-02-26" },
+    { "number": 66, "foundedAt": "2026-02-25" },
+    { "number": 65, "foundedAt": "2026-02-25" },
+    { "number": 64, "foundedAt": "2026-02-24" },
+    { "number": 63, "foundedAt": "2026-02-23" },
+    { "number": 62, "foundedAt": "2026-02-23" },
+    { "number": 61, "foundedAt": "2026-02-22" },
+    { "number": 60, "foundedAt": "2026-02-22" },
+    { "number": 59, "foundedAt": "2026-02-22" },
+    { "number": 58, "foundedAt": "2026-02-21" },
+    { "number": 57, "foundedAt": "2026-02-21" },
+    { "number": 56, "foundedAt": "2026-02-20" },
+    { "number": 55, "foundedAt": "2026-02-19" },
+    { "number": 54, "foundedAt": "2026-02-19" },
+    { "number": 53, "foundedAt": "2026-02-19" },
+    { "number": 52, "foundedAt": "2026-02-18" },
+    { "number": 51, "foundedAt": "2026-02-17" },
+    { "number": 50, "foundedAt": "2026-02-17" },
+    { "number": 49, "foundedAt": "2026-02-16" },
+    { "number": 48, "foundedAt": "2026-02-16" },
+    { "number": 47, "foundedAt": "2026-02-16" },
+    { "number": 46, "foundedAt": "2026-02-15" },
+    { "number": 45, "foundedAt": "2026-02-15" },
+    { "number": 44, "foundedAt": "2026-02-14" },
+    { "number": 43, "foundedAt": "2026-02-14" },
+    { "number": 42, "foundedAt": "2026-02-13" },
+    { "number": 41, "foundedAt": "2026-02-12" },
+    { "number": 40, "foundedAt": "2026-02-12" },
+    { "number": 39, "foundedAt": "2026-02-11" },
+    { "number": 38, "foundedAt": "2026-02-11" },
+    { "number": 37, "foundedAt": "2026-02-10" },
+    { "number": 36, "foundedAt": "2026-02-09" },
+    { "number": 35, "foundedAt": "2026-02-08" },
+    { "number": 34, "foundedAt": "2026-02-07" },
+    { "number": 33, "foundedAt": "2026-02-06" },
+    { "number": 32, "foundedAt": "2026-02-06" },
+    { "number": 31, "foundedAt": "2026-02-03" },
+    { "number": 30, "foundedAt": "2026-02-02" }
+  ]
+
+export const AccessServersNow = [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64]
+  

@@ -1,13 +1,75 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+:root {
+  --purple:        #7C3AED; /* violet-600 */
+  --purple-hover:  #6D28D9; /* violet-700 */
+  --purple-active: #5B21B6; /* violet-800 */
+  --purple-ring:   rgba(124, 58, 237, 0.35);
+  --purple-soft:   #EDE9FE; /* violet-100 */
+  --purple-text:   #5B21B6;
+}
+ 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.btn {
+  cursor: pointer;
+  background: #3B82F6;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 16px;
+  padding: 0px 20px;
+  font-weight: 500;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+  background: #2563EB;
+}
+
+.btn:active {
+  background: #1D4ED8;
+}
+
+.btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.4);
+}
+
+.btn:disabled {
+  background: #93C5FD;
+  color: #EFF6FF;
+  cursor: not-allowed;
+}
+
+.btn-purple {
+  cursor: pointer;
+  background: var(--purple);
+  color: #FFFFFF;
+  border: none;
+  border-radius: 16px;
+  padding: 0px 20px;
+  font-weight: 500;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.btn-purple:hover  { background: var(--purple-hover); }
+.btn-purple:active { background: var(--purple-active); }
+
+.btn-purple:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px var(--purple-ring);
+}
+
+.btn-purple:disabled {
+  background: #C4B5FD;
+  color: #F5F3FF;
+  cursor: not-allowed;
 }
