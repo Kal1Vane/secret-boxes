@@ -21,7 +21,7 @@ function App() {
   }
 
   function serverLink(serverNumber: number): string {
-    return `<link=500&500&${serverNumber}>${serverNumber}</link>`;
+    return `<link=500&500&${serverNumber}>№${serverNumber}</link>`;
   }
 
   function initialCounting(server: Server[]) {
